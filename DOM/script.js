@@ -27,3 +27,12 @@
 // children
 
 // ##It is important to CACHE selectors in variables
+
+
+//script for listeners
+
+var button = document.getElementsByTagName("button")[0];
+
+button.addEventListener("click", function(){
+    console.log("CLICK!!!");
+});
