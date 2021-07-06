@@ -9,6 +9,8 @@ function q1() {
     alert(a);
 }
 
+q1();
+
 //#2
 var a = 0;
 function q2() {
@@ -18,6 +20,9 @@ function q2() {
 function q22() {
     alert(a);
 }
+
+q2();
+q22();
 
 
 //#3
@@ -30,12 +35,18 @@ function q32() {
     alert(a);
 }
 
+q3();
+
+q32();
+
 //#4
 var a = 1;
 function q4() {
     var a = "test";
     alert(a);
 }
+
+q4();
 
 //#5
 var a = 2;
